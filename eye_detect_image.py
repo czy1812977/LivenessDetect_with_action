@@ -14,7 +14,7 @@ import sys
 import cv2
 import sys
  
-img = cv2.imread('/home/ydwu/datasets/00-pictures/face/3.jpg')
+img = cv2.imread('H:/dataset/1.png')
  
 # 加载分类器
 face_haar = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
